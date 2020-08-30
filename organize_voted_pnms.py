@@ -2,16 +2,15 @@ import xlrd
 import xlsxwriter
 
 # Create a workbook and add a worksheet.
-workbook = xlsxwriter.Workbook('recruitment2020FE6.xlsx')
+workbook = xlsxwriter.Workbook('recruitment2020FE12.xlsx')
 worksheet = workbook.add_worksheet()
 
 
 def myFunct(test):
     return test[0]
 
-
 # Give the location of the file
-loc = r"C:\Users\arhon\Google Drive\Recruitment 2020\raw_scores_report_e6.xlsx"
+loc = r"C:\Users\arhon\Google Drive\Recruitment Data\raw_scores_report_e12.xlsx"
 
 # To open Workbook
 wb = xlrd.open_workbook(loc)
